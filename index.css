@@ -1,0 +1,253 @@
+:root {
+  --black: #121212;
+  --white: #ffffff;
+  --light: #ffffe6;
+  --red: #b8162c;
+  --blue: #62b9d1;
+  --dblue: #28758a;
+  --pink1: #ff173e; /* #ff8c9f;  #ffcccc; */
+  --pink2: #ff8c9f;
+  --pink3 :#ffcccc;
+  --dpink: #c44239;
+  --dgray: #0f0f0f;
+  --lgray: #1f1f1f;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+    color: var(--text);
+    font-family: "Adam";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.1s;
+  scrollbar-color: var(--lgray) #0f0f0f;
+  scrollbar-width: 0.5rem;
+}
+
+/* Chrome because firefox fucking sucks fuck you nacrt I hate you im sorry I love you thanks */
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sc-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+   background: var(--sc-tb);/*#7d0f1f;*/
+  
+}
+
+.theme {
+  --bg: var(--white);
+  --text: var(--black);
+  --sc-bg: var(--lgray);
+  --sc-tb: var(--dgray);
+  --vis-p: var(--pink1);
+  --vis-b: var(--dblue);
+  
+}
+
+
+.main-container {
+  height: 100%;
+	 width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30;
+}
+
+.big-img {
+  margin-bottom: 5vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Adam";
+  src: url("Adam.otf");
+}
+
+.text-title {
+  font-size: 2em;
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+  opacity: 1;
+    line-height: 1.4;
+    word-spacing: 1px;
+    color: var(--text, #ffffff);         /* ba2f41 */
+}
+
+.text-work {
+  font-size: 2em;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  opacity: 1;
+    color: #ba2f41;
+    line-height: 1.4;
+    word-spacing: 0.1px;
+}
+
+.text-subtitle {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  opacity: 1;
+    word-spacing: 1px;
+}
+
+.social {
+  font-size: 3em;
+   font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: var(--text, #ffffff);
+    opacity: 1;
+    margin-bottom: 5vh;
+}
+
+.bhv {
+  transition-duration: 0.2s;
+  opacity: 1;
+}
+
+.bhv:hover {
+  transition-duration: 0.2s;
+  opacity: 0.6;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5em;    /* Footer height */
+}
+
+.spacing-big {
+  margin-top: 8vh;
+}
+
+.spacing-bottom {
+  margin-bottom: 10vh;
+}
+
+.spacing {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+
+#red {
+    font-family: "Adam";
+    color: #b8162c;
+}
+
+#pink {
+    font-family: "Adam";
+    color: var(--vis-p);
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-family: "Adam";
+    color: var(--text, #ffffff);
+}
+
+
+@media (min-width: 1281px) and (max-width: 1920px)  {
+  .feed  {
+    display: center;
+  }
+    .big-img {
+  width: 25%;
+  height: 25%;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .feed  {
+    display: center;
+    width: 80vh;
+    height: 80vh;
+  }
+    .big-img {
+  width: 25%;
+  height: 25%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feed  {
+  display: center;
+}
+    .big-img {
+  width: 40%;
+  height: 40%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .feed {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .big-img {
+  width: 50%;
+  height: 50%;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .feed {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .big-img {
+  width: 60%;
+  height: 60%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .feed {
+    display: inline-table;
+}
+  .big-img {
+  width: 60%;
+  height: 60%;
+}
+  
+}
+
+#twitter-widget-1 , #twitter-widget-0  {
+  padding: 2px;
+}
+
