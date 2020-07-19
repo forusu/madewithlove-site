@@ -10,6 +10,10 @@
     font-family: "Adam";
 }
 
+body {
+    height: 100%;
+}
+
 .red {
     color: red;
 }
@@ -39,7 +43,7 @@ p {
 }
 
 a {
-    font-size: inherit;
+    font-size: 1.6rem;
     color: #b8162c;
 }
 
@@ -71,4 +75,23 @@ a {
     margin-top: 5rem;
     align-self: left;
     width: 100%;
+}
+
+#projects .p-name {
+    font-size: 2rem;
+}
+
+#projects .p-desc {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: block;
+    font-size: inherit;
+    position: absolute;
+    bottom: 1rem;
+}
+
+footer * {
+    font-size: inherit;
 }
