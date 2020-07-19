@@ -1,14 +1,50 @@
+@font-face {
+  font-family: "Adam";
+    src: url("Adam.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Adam";
+}
+
+.red {
+    color: red;
+}
+
+.pink {
+    color: #ff173e;
+}
+
+.title {
+    font-size: 1.8rem;
 }
 
 main {
     margin-top: 3rem;
     display: flex;
+    width: 75%;
+    margin: 2.5rem auto 0 auto;
     flex-direction: column;
     align-items: center;
+}
+
+p {
+    font-size: 1.6rem;
+    max-width: 155rem;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+a {
+    font-size: inherit;
+    color: #b8162c;
+}
+
+.title {
+    font-size: 2rem;
 }
 
 #links {
@@ -16,8 +52,23 @@ main {
     flex-direction: row;
 }
 
+#info {
+    margin-top: 4rem;
+}
+
 #links a {
     color: black;
-    font-size: 3.3rem;
+    font-size: 3.2rem;
     margin: 0 0.3rem;
+    transition: all 0.2s ease;
+}
+
+#links a:hover {
+    opacity: 0.5;
+}
+
+#projects {
+    margin-top: 5rem;
+    align-self: left;
+    width: 100%;
 }
