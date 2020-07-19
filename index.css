@@ -22,8 +22,8 @@
 
 body {
   background-color: var(--bg);
-    color: var(--text);
-    font-family: "Adam";
+  color: var(--text);
+  font-family: "Adam";
   text-align: center;
   margin: 0;
   padding: 0;
