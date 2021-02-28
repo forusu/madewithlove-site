@@ -137,6 +137,24 @@ a {
 	color: var(--vis-p);
 }
 
+#hrt:hover {
+	z-index: 1;
+	font-size: 1.2em;
+	position: relative;
+	transition: ease-in-out;
+	transition-duration: .1s;
+	opacity: .6;
+}
+
+#hrt {
+	transition: ease-out;
+	transition-duration: .1s;
+	position: relative;
+	margin: 5;
+	opacity: 1;
+	text-decoration:none;
+}
+
 footer {
 	position: absolute;
 	text-align: center;

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>madewithlove</title>
-  <link rel="stylesheet" href="index.css" media>
-  <link rel="icon" href="https://discord.com/assets/46dc70e2608d986da6de64c6ba5a59da.svg">
+  <link id="style" rel="stylesheet" href="index.css" media>
+  <link id="icon" rel="icon" href="https://discord.com/assets/46dc70e2608d986da6de64c6ba5a59da.svg">
   <link rel="preload" href="assets/Adam.otf" as="font" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML, webdev, photography, webdevelopment, portfolio, project, madewith, love">
@@ -17,6 +17,7 @@
   <meta name="author" content="made by Mia <3">
   <meta name="theme-color" content="#ffb33b">
   <script src="https://kit.fontawesome.com/47ac9c0ac4.js" async></script>
+  <script src="js.js" type="application/javascript" defer></script>
   <meta charset="utf-8">
 </head>
 
@@ -24,7 +25,7 @@
      
       <main>
           
-          <img class="big-img spacing" width="396" height="371" src="images/prp.webp" alt="Figure with a yellow umbrella.">
+          <img id="image" class="big-img spacing" width="396" height="371" src="images/prp.webp" alt="Figure with an umbrella.">
 
             <section id="social">
               <a class="bhv" rel="noreferrer" href="https://github.com/forusu" target="_blank"><i class="fab fa-github"></i></a>  
@@ -34,7 +35,7 @@
           
             <section class="flex-2">                                               
               <div>
-                <h1 class="text-title">Made with <span class="hl">💛</span></h1>
+                <h1 class="text-title">Made with <span class="hl" id="hrt">💛</span></h1>
                       
                 <p><span class="text-subtitle">I'm a <span class="hl">webdeveloper, social engineer, professional photographer and a security researcher</span> interested in backend programming, linguistics, astrophysics, penetration testing and Valve game exploitation.
                   <br><br>

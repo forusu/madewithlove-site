@@ -1,0 +1,239 @@
+:root {
+	--black: #ffffff;
+	--white: #000000;
+	--hl: #e41631;
+	--dgray: #0f0f0f;
+	--lgray: #1f1f1f
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+body {
+	background-color: var(--white);
+	color: var(--black);
+	line-height: 1.35;
+	font-family: Adam;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 2rem;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	transition: .4s;
+	scrollbar-color: var(--lgray) #0f0f0f;
+	scrollbar-width: .5rem
+}
+
+main {
+	height: 100%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 2em
+}
+
+body::-webkit-scrollbar {
+	width: .5rem
+}
+
+body::-webkit-scrollbar-track {
+	background: var(--sc-bg)
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--sc-tb)
+}
+
+.theme {
+	--bg: var(--white);
+	--text: var(--black);
+	--sc-bg: var(--lgray);
+	--sc-tb: var(--dgray);
+	--vis-p: var(--hl)
+}
+
+.big-img {
+	border: 3px solid #ba2f41;
+	margin-bottom: 5vh;
+	justify-content: center;
+	text-align: center
+}
+
+.flex-2 {
+	display: flex;
+	justify-content: center;
+	text-align: left
+}
+
+a {
+	color: inherit
+}
+
+@font-face {
+	font-family: Adam;
+	src: url(assets/Adam.otf);
+	font-display: swap
+}
+
+.text-title {
+	font-size: 2.3em;
+	text-align: left;
+    opacity: 1;
+    font-weight: 700;
+	word-spacing: 1px;
+	color: var(--text, #fff)
+}
+
+.text-work {
+	font-size: 2em;
+	text-align: left;
+    opacity: 1;
+    font-weight: 700;
+	color: var(--vis-p);
+	word-spacing: .1px
+}
+
+.text-subtitle {
+	font-size: 1.5em;
+    text-align: left;
+    font-weight: bold;
+	opacity: 1;
+	word-spacing: 1px
+}
+
+#social {
+	font-size: 3em;
+	text-align: center;
+	color: var(--text, #fff);
+	opacity: 1;
+	margin-bottom: 5vh
+}
+
+.bhv {
+	transition-duration: .2s;
+	opacity: 1
+}
+
+.bhv:hover {
+	transition-duration: .2s;
+	opacity: .6
+}
+
+.spacing-big {
+	margin-top: 8vh
+}
+
+.spacing {
+	margin-top: 4vh;
+	margin-bottom: 4vh
+}
+
+.hl {
+	color: var(--vis-p);
+}
+
+#hrt:hover {
+	z-index: 1;
+	font-size: 1.2em;
+	position: relative;
+	transition: ease-in-out;
+	transition-duration: .1s;
+	opacity: .6;
+}
+
+#hrt {
+	transition: ease-out;
+	transition-duration: .1s;
+	position: relative;
+	margin: 5;
+	opacity: 1;
+	text-decoration:none;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+	font-family: Adam;
+	font-weight: 400;
+	color: var(--text, #fff)
+}
+
+@media (min-width:1281px) and (max-width:1920px) {
+	.feed {
+		text-align: center
+	}
+	.big-img {
+		width: 25%;
+		height: 25%
+	}
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+	.feed {
+		display: center;
+		width: 80vh;
+		height: 80vh
+	}
+	.big-img {
+		width: 25%;
+		height: 25%
+	}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+	.feed {
+		display: center
+	}
+	.big-img {
+		width: 40%;
+		height: 40%
+	}
+}
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+	.feed {
+		display: flex;
+		flex-wrap: wrap
+	}
+	.big-img {
+		width: 50%;
+		height: 50%
+	}
+}
+
+@media (min-width:481px) and (max-width:767px) {
+	.feed {
+		display: flex;
+		flex-wrap: wrap
+	}
+	.big-img {
+		width: 60%;
+		height: 60%
+	}
+}
+
+@media (min-width:320px) and (max-width:480px) {
+	.feed {
+		display: inline-table
+	}
+	.big-img {
+		width: 60%;
+		height: 60%
+	}
+}
+
+#twitter-widget-0,
+#twitter-widget-1 {
+	padding: 2px
+}
+
