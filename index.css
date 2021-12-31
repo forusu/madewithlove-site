@@ -127,6 +127,7 @@ a {
 
 .bhv:hover {
 	transition-duration: .2s;
+	opacity: .6;
 	color: #ffb33b;
 }
 
