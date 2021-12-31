@@ -91,8 +91,8 @@ a {
 .text-title {
 	font-size: 2.3em;
 	text-align: left;
-    opacity: 1;
-    font-weight: 700;
+   	opacity: 1;
+    	font-weight: 700;
 	word-spacing: 1px;
 	color: var(--text, #fff)
 }
@@ -100,16 +100,16 @@ a {
 .text-work {
 	font-size: 2em;
 	text-align: left;
-    opacity: 1;
-    font-weight: 700;
+    	opacity: 1;
+    	font-weight: 700;
 	color: var(--vis-p);
 	word-spacing: .1px
 }
 
 .text-subtitle {
 	font-size: 1.5em;
-    text-align: left;
-    font-weight: bold;
+    	text-align: left;
+    	font-weight: bold;
 	opacity: 1;
 	word-spacing: 1px
 }
