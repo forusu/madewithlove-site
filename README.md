@@ -1,8 +1,7 @@
 # madewithlove-site
 My portfolio site and my main webdev project
 
-It offers incredible speed, readability and a sleek minimal design trying to be less bloaty as most other websites currently are. 
-It's written in pure html/css with only JS being the icons and a cute little easter egg.
+It is decently fast, which is not surprising considering it consists only of html and css, plus some JS for a side thing. 
 
 # Lighthouse report
 
