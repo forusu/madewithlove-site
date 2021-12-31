@@ -26,6 +26,12 @@ body {
 	transition: .4s;
 	scrollbar-color: var(--lgray) #0f0f0f;
 	scrollbar-width: .5rem
+	-webkit-touch-callout: none;
+    	-webkit-user-select: none;
+    	-khtml-user-select: none;
+    	-moz-user-select: none;
+    	-ms-user-select: none;
+    	user-select: none;
 }
 
 main {
