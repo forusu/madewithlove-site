@@ -17,7 +17,7 @@ function initate() {
     } else if (style.getAttribute("href") == "red.css") {
         heart.onclick = function () { swapStyleSheet("cyan.css", "images/prpcy.webp", "https://discord.com/assets/e37c985edda06b7d5f4559bc838c1bde.svg", "💙"); };
     } else if (style.getAttribute("href") == "cyan.css") {
-        heart.onclick = function () { swapStyleSheet("pink.css", "images/prp.webp", "https://discord.com/assets/46dc70e2608d986da6de64c6ba5a59da.svg", "💗"); };
+        heart.onclick = function () { swapStyleSheet("pink.css", "images/prppk.webp", "https://discord.com/assets/46dc70e2608d986da6de64c6ba5a59da.svg", "💗"); };
     } else if (style.getAttribute("href") == "pink.css") {
         heart.onclick = function () { swapStyleSheet("index.css", "images/prp.webp", "https://discord.com/assets/46dc70e2608d986da6de64c6ba5a59da.svg", "💛"); };
     }
