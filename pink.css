@@ -1,9 +1,9 @@
 :root {
-	--black: #ffffff;
+	--black: #000000;
 	--white: #ffffff;
 	--hl: #d97979;
-	--dgray: #0f0f0f;
-	--lgray: #1f1f1f
+	--dgray: #d97979;
+	--lgray: #d4a9a9;
 }
 
 * {
@@ -66,7 +66,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .big-img {
-	border: 3px solid #32a9e0;
+	border: 3px solid #d97979;
 	margin-bottom: 5vh;
 	justify-content: center;
 	text-align: center
