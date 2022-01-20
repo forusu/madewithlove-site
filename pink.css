@@ -1,5 +1,5 @@
 :root {
-	--black: #000000;
+	--black: #0c0d0c;
 	--white: #ffffff;
 	--hl: #d97979;
 	--dgray: #d97979;
@@ -130,7 +130,7 @@ a {
 .bhv:hover {
 	transition-duration: .2s;
 	opacity: .6;
-	color: #32a9e0;
+	color: #d97979;
 }
 
 .spacing-big {
